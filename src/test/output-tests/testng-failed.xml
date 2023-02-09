@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="E:/Khushboo/selenium-project(failed)">
+    <classes>
+      <class name="org.example.testcases.TestCase_01">
+        <methods>
+          <include name="testCases"/>
+        </methods>
+      </class> <!-- org.example.testcases.TestCase_01 -->
+      <class name="org.example.testcases.LoginTestCase">
+        <methods>
+          <include name="getLogin"/>
+        </methods>
+      </class> <!-- org.example.testcases.LoginTestCase -->
+    </classes>
+  </test> <!-- E:/Khushboo/selenium-project(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

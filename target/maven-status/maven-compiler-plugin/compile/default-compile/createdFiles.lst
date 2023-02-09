@@ -1,6 +1,16 @@
+org\example\testcases\TestCase_01.class
+org\example\pages\RegisterPage.class
 org\example\testcases\TestCase_02.class
+org\example\base\ConfigurationFile.class
 org\example\testcases\ExcelTesting$1.class
+org\example\testcases\LoginTestCase.class
 org\example\testcases\WriteExcel.class
 org\example\Main.class
-org\example\testcases\TestCase_01.class
+org\example\testcases\menuTest.class
+org\example\base\CaptureScreenshot.class
+org\example\pages\LoginPage.class
 org\example\testcases\ExcelTesting.class
+org\example\testcases\ExcelWrite.class
+org\example\base\InitiateDriver.class
+org\example\base\PageAction.class
+org\example\testcases\TestCase.class

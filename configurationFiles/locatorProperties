@@ -1,0 +1,5 @@
+Application_login_tab=/html/body/div[4]/section/ul/li[2]/label
+Application_login_username=_txtUserName
+Application_login_password=_txtPassword
+Application_login_checkbox=//*[@id="tab-content2"]/form/div/input[1]
+Application_login_click=//*[@id="tab-content2"]/form/div/input[2]

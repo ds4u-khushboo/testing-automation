@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-02T13:58:08 IST" name="All Test Suite" finished-at="2023-02-02T13:58:21 IST" duration-ms="12972">
+    <groups>
+    </groups>
+    <test started-at="2023-02-02T13:58:08 IST" name="E:/Khushboo/selenium-project" finished-at="2023-02-02T13:58:21 IST" duration-ms="12972">
+      <class name="org.example.testcases.WriteExcel">
+        <test-method signature="writeExcel()[pri:0, instance:org.example.testcases.WriteExcel@485966cc]" started-at="2023-02-02T13:58:20 IST" name="writeExcel" finished-at="2023-02-02T13:58:21 IST" duration-ms="1059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeExcel -->
+      </class> <!-- org.example.testcases.WriteExcel -->
+      <class name="org.example.testcases.TestCase">
+        <test-method signature="assertion()[pri:0, instance:org.example.testcases.TestCase@342c38f8]" started-at="2023-02-02T13:58:09 IST" name="assertion" finished-at="2023-02-02T13:58:09 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertion -->
+      </class> <!-- org.example.testcases.TestCase -->
+      <class name="org.example.testcases.TestCase_01">
+        <test-method signature="testCase()[pri:0, instance:org.example.testcases.TestCase_01@c88a337]" started-at="2023-02-02T13:58:09 IST" name="testCase" finished-at="2023-02-02T13:58:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCases()[pri:0, instance:org.example.testcases.TestCase_01@c88a337]" started-at="2023-02-02T13:58:09 IST" name="testCases" finished-at="2023-02-02T13:58:09 IST" duration-ms="78" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+at org.example.pages.RegisterPage.enterName(RegisterPage.java:33)
+at org.example.testcases.TestCase_01.testCases(TestCase_01.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCases -->
+      </class> <!-- org.example.testcases.TestCase_01 -->
+      <class name="org.example.testcases.LoginTestCase">
+        <test-method signature="getLogin()[pri:0, instance:org.example.testcases.LoginTestCase@f5acb9d]" started-at="2023-02-02T13:58:08 IST" name="getLogin" finished-at="2023-02-02T13:58:09 IST" duration-ms="17" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.example.testcases.LoginTestCase.getLogin(LoginTestCase.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLogin -->
+      </class> <!-- org.example.testcases.LoginTestCase -->
+      <class name="org.example.testcases.TestCase_02">
+        <test-method signature="testing()[pri:0, instance:org.example.testcases.TestCase_02@5d0a1059]" started-at="2023-02-02T13:58:09 IST" name="testing" finished-at="2023-02-02T13:58:20 IST" duration-ms="11678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+      </class> <!-- org.example.testcases.TestCase_02 -->
+    </test> <!-- E:/Khushboo/selenium-project -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

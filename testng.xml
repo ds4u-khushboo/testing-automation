@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="E:/Khushboo/selenium-project">
+        <classes>
+            <class name="org.example.testcases.LoginTestCase">
+                <methods>
+                    <include name="getLogin"/>
+                </methods>
+            </class>
+            <class name="org.example.testcases.TestCase">
+                <methods>
+                    <include name="assertion"/>
+                </methods>
+            </class>
+            <class name="org.example.testcases.TestCase_01">
+                <methods>
+                    <include name="testCase"/>
+                    <include name="testCases"/>
+                </methods>
+            </class>
+            <class name="org.example.testcases.TestCase_02">
+                <methods>
+                    <include name="testing"/>
+                </methods>
+            </class>
+            <class name="org.example.testcases.WriteExcel">
+                <methods>
+                    <include name="writeExcel"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

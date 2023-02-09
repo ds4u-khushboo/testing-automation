@@ -19,7 +19,7 @@ import static org.apache.poi.ss.usermodel.CellType.STRING;
 public class ExcelTesting {
 
     public static void main(String[] args) throws FileNotFoundException {
-        String filePath = "E:\\Khushboo\\selenium-project\\Employee.xlsx";
+        String filePath = "E:\\Khushboo\\vc_doctor_automation\\data.xlsx";
         List<Object[]> data = readExcel(filePath);
         for (Object[] row : data) {
             for (Object cell : row) {

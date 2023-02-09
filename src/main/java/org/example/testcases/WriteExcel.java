@@ -5,7 +5,7 @@ import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -13,11 +13,12 @@ import java.io.IOException;
 
 public class WriteExcel {
     public static void main(String[] args) throws IOException {
-        writeExcel();
+        WriteExcel writeExcel=new WriteExcel();
+        writeExcel.writeExcel();
     }
 
     @Test
-    public static void writeExcel() throws IOException {
+    public  void writeExcel() throws IOException {
         FileInputStream fis = new FileInputStream("D:\\Test.xlsx");
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
